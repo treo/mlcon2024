@@ -17,8 +17,7 @@ This project showcases how you can create a simple agent with Xircuits that has 
 pip install uv
 uv venv
 source .venv/bin/activate
-uv pip install xircuits
-pip install -r requirements.txt
+uv pip install -r requirements.txt
 xircuits start
 ```
 
