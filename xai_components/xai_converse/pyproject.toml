@@ -1,0 +1,14 @@
+[project]
+name = "xai-converse"
+version = "0.2.0"
+description = "Xircuits component library for creating an agent accessible with the OpenAI API."
+authors = [{ name = "XpressAI", email = "eduardo@xpress.ai" }]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/XpressAI/xai-converse"
+keywords = ["xircuits", "flask", "converse", "agent"]
+
+# Xircuits-specific configurations
+[tool.xircuits]
+requirements_path = "requirements.txt"
+default_example_path = "examples/example.xircuits"

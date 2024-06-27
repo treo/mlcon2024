@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/technologic/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link rel="modulepreload" href="/technologic/_app/immutable/entry/start.83b3306f.js">
+		<link rel="modulepreload" href="/technologic/_app/immutable/chunks/index.6e58b9bb.js">
+		<link rel="modulepreload" href="/technologic/_app/immutable/chunks/singletons.a89d3194.js">
+		<link rel="modulepreload" href="/technologic/_app/immutable/chunks/index.31815045.js">
+		<link rel="modulepreload" href="/technologic/_app/immutable/entry/app.a81b1e83.js">
+		<link rel="modulepreload" href="/technologic/_app/immutable/chunks/preload-helper.a4192956.js">
+	</head>
+	<body data-sveltekit-preload-data="hover" data-theme="hamlindigo">
+		<div style="display: contents" class="h-full overflow-hidden">
+			<script>
+				{
+					__sveltekit_leo35l = {
+						assets: "/technologic",
+						base: "/technologic",
+						env: {"PUBLIC_MODEL":"rwkv-raven-14b-eng-more"}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/technologic/_app/immutable/entry/start.83b3306f.js"),
+						import("/technologic/_app/immutable/entry/app.a81b1e83.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>

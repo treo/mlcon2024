@@ -1,0 +1,14 @@
+[project]
+name = "xai-agent"
+version = "0.1.0"
+description = "Xircuits component library for creating an agent that can use tools."
+authors = [{ name = "XpressAI", email = "eduardo@xpress.ai" }]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/XpressAI/xai-agent"
+keywords = ["xircuits", "agent", "openai", "vertexai"]
+
+# Xircuits-specific configurations
+[tool.xircuits]
+default_example_path = "agent_example.xircuits"
+requirements_path = "requirements.txt"
