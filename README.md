@@ -13,14 +13,14 @@ This project showcases how you can create a simple agent with Xircuits that has 
 
 ### 0. Install xircuits and dependencies
 
-´´´
+```
 pip install uv
 uv venv
 source .venv/bin/activate
 uv pip install xircuits
 pip install -r requirements.txt
 xircuits start
-´´´
+```
 
 ### 1. Create and Download Service Account Credentials
 
